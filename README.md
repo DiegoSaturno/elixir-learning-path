@@ -1,2 +1,2 @@
-# Prove of Context - Elixir
+# Proof of Concept - Elixir
 Projeto para aprendizado em Elixir.
