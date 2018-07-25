@@ -100,6 +100,8 @@ newKeywordList = keywordList ++ tupleToAppend
 
 IO.inspect newKeywordList
 
+IO.puts Math.sumPlusThree(2)
+
 
 
 
