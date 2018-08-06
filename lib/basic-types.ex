@@ -100,7 +100,21 @@ newKeywordList = keywordList ++ tupleToAppend
 
 IO.inspect newKeywordList
 
-IO.puts Math.sumPlusThree(2)
+# Functions and modules
+# IO.puts Math.sumPlusThree(2)
+
+IO.puts Testmodule.concat("Elixir", "eh top");
+IO.puts Testmodule.concat("Elixir", "eh top", "_");
+
+# Como linguagens funcionais são imutáveis, para iterar um vetor e realizar operações nele, devemos usar recursão até que se satisfaça a condição.
+
+Recursion.print_n_times("Elixir eh confuso mas eh top", 3)
+
+listToSum = [10, 23, 18, 9]
+IO.puts Recursion.sum_list(listToSum, 0)
+
+IO.puts Enum.reduce(listToSum, 0, fn(x, acc) -> x + acc end)
+IO.inspect Enum.map(listToSum, fn(x) -> x * x end)
 
 
 
